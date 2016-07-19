@@ -2,6 +2,7 @@
 Convert images (ppm format) to rgb 565 (16 bit format) for use with many common LCD's
 
 Usage: ppmto565 [options] [input]
+
 Generates a .C source file of RGB 16-bit data, suitable for use with many LCD
 displays.  Modification might be necessary if your MCU or API/libraries can't
 make use of the unsigned int[] output.  It also is customized for my ESP8266
