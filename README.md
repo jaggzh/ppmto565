@@ -28,7 +28,7 @@ __Examples__:
   <dt><code>ppmto565 -n myimg someimage.ppm > someimage.cpp</code></dt>
   <dd>Outputs <code>unsigned int myimg[]</code> data, as well as defines <code>myimg_w</code> and <code>myimg_h</code></dd>
   <dt><code>pngtopnm file.png | ppmto565 -f -n myimg someimage.ppm > someimage.cpp</code></dt>
-  <dd>Same as above, but includes <code>#define</code>s, and modifies the declaration, for storage in the flash memory of the ESP8266.</dd>
+  <dd>Same as above, but includes <code>#defines</code>, and modifies the declaration, for storage in the flash memory of the ESP8266.</dd>
 </dl>
 
 __Example steps__:
